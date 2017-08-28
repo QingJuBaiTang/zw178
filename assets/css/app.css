@@ -1,0 +1,352 @@
+body{
+	background: #F5F5F5;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.top{
+	background: #0f69dc;
+	box-shadow: 0 1px 3px rgba(27, 27, 27, 0.25);
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.top a{
+	color: #fff;
+}
+.top .topr a{
+	margin-left: 10px;
+}
+.header{
+	margin-top: 30px;
+}
+.header .headerbox{
+	background: #fff;
+	border: 1px solid #ebebeb;
+	border-radius: 4px;	
+}
+.header .head{    
+	padding: 20px;
+}
+.header .head .logo{
+	float: left;
+	padding-top: 15px;
+}
+.header .head .logo img{
+	height: 42px;
+}
+.header .head .logo-name{
+	float: left;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+.header .head .logo-name h3{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+.header .head .logo-name p{
+	font-size: 12px;
+	margin: 0;
+}
+.header .head .phone{
+	float: right;
+	width: 200px;
+}
+.header .head .phone .lxr{
+	background: url(../i/icon-user.png) no-repeat left center;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #0F69DC;
+	margin-bottom: 5px;
+}
+.header .head .phone .mob{
+	background: url(../i/icon-mob.png) no-repeat left center;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #0F69DC;
+	margin-bottom: 5px;
+}
+.header .head .phone .tel{
+	background: url(../i/icon-tel.png) no-repeat left center;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #0F69DC;
+}
+.header .nav{
+	background: #0f69dc;
+}
+.header .nav ul{
+	display: flex;
+}
+.header .nav ul li{
+	flex: 1;
+	font-size: 16px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+.header .nav ul li a{
+	display: block;
+	color: #fff;
+	height: 60px;
+}
+.header .nav ul li a:hover{
+	color: #fff;
+	background: #0956b9;
+}
+.loc{
+	font-size: 14px;
+	color: #999;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+.loc i{
+	margin-right: 5px;
+}
+.loc a{
+	color: #999;
+}
+.date{
+	float: right;
+	font-size: 14px;
+	color: #999;
+	height: 50px;
+	line-height: 50px;
+}
+
+.pro-photo{
+	background: #fff;
+	border: 1px solid #ebebeb;
+	border-radius: 4px;
+}
+.pro-photo .hd{
+	padding: 10px 20px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.pro-photo .hd .cate-name{
+	font-size: 16px;
+	color: #424242;
+	float: left;
+}
+.pro-photo .hd a.more{
+	float: right;
+	font-size: 12px;
+	color: #0f69dc;
+	display: block;
+	margin-top: 5px;
+}
+.pro-photo .hd a.more i{
+	margin-left: 5px;
+}
+.pro-photo .bd{
+	padding: 20px;
+}
+.pro-photo .bd .item{
+	padding: 20px;
+}
+.pro-photo .bd .item a{
+	display: block;
+}
+.pro-photo .bd .item .img{
+	max-height: 250px;
+}
+.pro-photo .bd .item .img img{
+	width: 100%;
+}
+.pro-photo .bd .item h5{
+	font-size: 14px;
+	color: #333;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.wrap2{
+	margin-top: 20px;
+}
+.wrap2 .sidebar{
+	float: left;
+	width: 285px;
+}
+.wrap2 .sidebar .sidebar-box{
+	background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.wrap2 .sidebar .sidebar-box .hd{
+	padding: 10px 20px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.wrap2 .sidebar .sidebar-box .hd .cate-name{
+	font-size: 14px;
+	color: #424242;
+	float: left;
+}
+.wrap2 .sidebar .sidebar-box .hd a.more{
+	float: right;
+	font-size: 12px;
+	color: #0f69dc;
+	display: block;
+	margin-top: 5px;
+}
+.wrap2 .sidebar .sidebar-box .hd a.more i{
+	margin-left: 5px;
+}
+.wrap2 .sidebar .sidebar-box .bd{
+	padding: 10px 20px 10px 20px;
+}
+.wrap2 .sidebar .sidebar-box .bd li a{
+	font-size: 12px;
+	color: #666;
+}
+.wrap2 .sidebar .sidebar-box.search-box p{
+	margin: 10px 0 0 0;
+}
+.wrap2 .sidebar .sidebar-box.search-box input{
+	font-size: 12px;
+}
+.wrap2 .sidebar .sidebar-box.search-box select{
+	font-size: 12px;
+}
+.wrap2 .sidebar .sidebar-box.search-box select{
+	font-size: 12px;
+}
+.wrap2 .sidebar .sidebar-box.search-box .btn-search{
+	font-size: 12px;
+	background: #0f69dc;
+	color: #fff;
+}
+.wrap2 .main{
+	float: right;
+	width: 895px;
+}
+.wrap2 .main .main-box{
+	background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.wrap2 .main .main-box .hd{
+	padding: 10px 20px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.wrap2 .main .main-box .hd .cate-name{
+	font-size: 14px;
+	color: #424242;
+	float: left;
+}
+.wrap2 .main .main-box .hd a.more{
+	float: right;
+	font-size: 12px;
+	color: #0f69dc;
+	display: block;
+	margin-top: 5px;
+}
+.wrap2 .main .main-box .hd a.more i{
+	margin-left: 5px;
+}
+.wrap2 .main .main-box .bd{
+	padding: 20px 0 0 20px;
+}
+.wrap2 .main .main-box .bd li{
+	float: left;
+	margin-right: 20px;
+	width: 271px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.wrap2 .main .main-box .bd li:hover{
+	box-shadow:0px 0px 5px #ddd;
+}
+.wrap2 .main .main-box .bd li .item a{
+	display: block;
+}
+.wrap2 .main .main-box .bd li .item .img{
+	max-height: 250px;
+}
+.wrap2 .main .main-box .bd li .item .img img{
+	width: 100%;
+}
+.wrap2 .main .main-box .bd li .item h5{
+	font-size: 14px;
+	color: #333;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.wrap3 .company{
+	background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+.wrap3 .company .hd{
+	padding: 10px 20px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.wrap3 .company .hd .cate-name{
+	font-size: 16px;
+	color: #424242;
+	float: left;
+}
+.wrap3 .company .hd a.more{
+	float: right;
+	font-size: 12px;
+	color: #0f69dc;
+	display: block;
+	margin-top: 5px;
+}
+.wrap3 .company .hd a.more i{
+	margin-left: 5px;
+}
+.wrap3 .company .bd{
+	padding: 20px;
+}
+.wrap3 .company .bd .img{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	border: 1px solid #ebebeb;
+}
+.wrap3 .company .bd .img img{
+	width: 100%;
+}
+.wrap3 .company .bd .info{
+	float: right;
+	width: 66%;
+}
+.wrap3 .company .bd .info h5{
+	font-size: 16px;
+	font-weight: normal;
+}
+.wrap3 .company .bd .info p{
+	font-size: 14px;
+}
+.wrap3 .company .bd .info a.more{
+	display: inline-block;
+	background: #0f69dc;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.footer{
+	margin-top: 30px;
+	padding: 20px 0;
+	background: #262626;
+	color: gray;
+	font-size: 12px;
+	text-align: center;
+}
+.footer p{
+	margin: 0 0 10px 0;
+}
+.footer a{
+	color: gray;
+	text-decoration: underline;
+}
