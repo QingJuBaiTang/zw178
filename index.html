@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hello Amaze UI</title>
-    <meta name="keywords" content="">
     <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Amaze UI</title>
+    <!-- Set render engine for 360 browser -->
     <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="icon" type="image/png" href="assets/i/favicon.png">
     <link rel="stylesheet" href="assets/css/amazeui.min.css">
@@ -18,13 +20,16 @@
 <div class="top">
     <div class="am-container">
         <div class="topl am-fl">
-            欢迎光临济南重汽发汽配有限公司
+            欢迎，<span>客人</span>
+            <a href="#">请登录</a>
+            <a href="#">免费注册</a>
+            <a href="#">忘记密码?</a>
         </div>
         <div class="topr am-fr">
+            <a href="#"><i class="am-icon-mobile"></i>生成微名片</a>
+            <a href="#"><i class="am-icon-qrcode"></i>生成二维码</a>
             <a href="#">收藏本页</a>
-            <a href="#">设为主页</a>
-            <a href="#">随便看看</a>
-            <a href="#">手机版</a>
+            <a href="#">关于我们</a>
         </div>
     </div>
 </div>
@@ -35,315 +40,871 @@
                 <div class="logo">
                     <a href="#"><img src="assets/i/logo.png"></a>
                 </div>
-                <div class="logo-name">
-                    <h3>济南重汽发汽配有限公司</h3>
-                    <p>重型卡车轴承 潍柴动力水泵 各车型轮边滚针 转向节主肖修理包</p>
+                <div class="logot">
+                    <img src="assets/i/logot.png">
                 </div>
-                <div class="phone">
-                    <div class="lxr">联系人：陈秀军</div>
-                    <div class="mob">手机：13869190500</div>
-                    <div class="tel">电话：0531-85730779</div>
+                <div class="search">
+                    <form>
+                        <div class="am-input-group am-input-group-sm">
+                            <input type="text" class="am-form-field" placeholder="输入关键词搜索">
+                            <span class="am-input-group-btn">
+					        	<button class="am-btn btn-search" type="button"><span
+                                        class="am-icon-search"></span></button>
+					      	</span>
+                        </div>
+                    </form>
+                    <div class="hot-keywords">
+                        <span>热门搜索：</span>
+                        <a href="#">微商在线</a>
+                        <a href="#">珠宝代理</a>
+                        <a href="#">移动互联网</a>
+                        <a href="#">美容产品</a>
+                    </div>
                 </div>
             </div>
             <div class="nav">
                 <ul>
                     <li><a href="#">网站首页</a></li>
-                    <li><a href="#">公司介绍</a></li>
-                    <li><a href="#">供应产品</a></li>
+                    <li><a href="#">城市选择</a></li>
+                    <li><a href="#">电子名片</a></li>
+                    <li><a href="#">供应信息</a></li>
+                    <li><a href="#">求购信息</a></li>
                     <li><a href="#">产品展厅</a></li>
-                    <li><a href="#">采购清单</a></li>
                     <li><a href="#">新闻中心</a></li>
-                    <li><a href="#">荣誉资质</a></li>
-                    <li><a href="#">人才招聘</a></li>
-                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">全国展会</a></li>
+                    <li><a href="#">新增企业</a></li>
+                    <li><a href="#">企业名录</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<div class="ban">
+<div class="home-layout">
     <div class="am-container">
-        <div data-am-widget="slider" class="am-slider am-slider-b2" data-am-slider='{"controlNav":false}'>
-            <ul class="am-slides">
-                <li>
-                    <img src="assets/i/ban.jpg">
-                </li>
-                <li>
-                    <img src="assets/i/ban.jpg">
-                </li>
-                <li>
-                    <img src="assets/i/ban.jpg">
-                </li>
+        <div class="box am-cf">
+            <div class="banner">
+                <div data-am-widget="slider" class="am-slider am-slider-a2" data-am-slider='{"directionNav":false}'>
+                    <ul class="am-slides">
+                        <li><img src="assets/i/ban.jpg"></li>
+                        <li><img src="assets/i/ban.jpg"></li>
+                        <li><img src="assets/i/ban.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notice">
+                <div class="am-tabs" data-am-tabs>
+                    <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+                        <li class="am-active"><a href="#tab1">最新公告</a></li>
+                        <li><a href="#tab2">行业动态</a></li>
+                    </ul>
+                    <div class="am-tabs-bd">
+                        <div class="am-tab-panel am-active" id="tab1">
+                            <ul class="list">
+                                <li class="am-text-truncate"><a href="#">习近平为何对G20杭州峰会评价这么高？</a></li>
+                                <li class="am-text-truncate"><a href="#">“一带一路”助推“杭州共识”</a></li>
+                                <li class="am-text-truncate"><a href="#">七月季礼品赠送中</a></li>
+                                <li class="am-text-truncate"><a href="#">好消息、好消息、好消息</a></li>
+                                <li class="am-text-truncate"><a href="#">潍柴动力发动机，中国重汽发动机配件专卖</a></li>
+                                <li class="am-text-truncate"><a href="#">微网在线 您线上平台的好助手</a></li>
+                                <li class="am-text-truncate"><a href="#">移动互联网时代 您准备好了吗</a></li>
+                                <li class="am-text-truncate"><a href="#">移动端时代已经到来？！！！</a></li>
+                                <li class="am-text-truncate"><a href="#">儿童游乐设备自控飞机游乐园必备游乐设备，你还在等什么？</a></li>
+                                <li class="am-text-truncate"><a href="#">童星游乐场游乐设备霹雳摇滚什么原因，这么火？</a></li>
+                            </ul>
+                        </div>
+                        <div class="am-tab-panel" id="tab2">
+                            <ul class="list">
+                                <li class="am-text-truncate"><a href="#">潍柴动力发动机，中国重汽发动机配件专卖</a></li>
+                                <li class="am-text-truncate"><a href="#">“一带一路”助推“杭州共识”</a></li>
+                                <li class="am-text-truncate"><a href="#">七月季礼品赠送中</a></li>
+                                <li class="am-text-truncate"><a href="#">好消息、好消息、好消息</a></li>
+                                <li class="am-text-truncate"><a href="#">潍柴动力发动机，中国重汽发动机配件专卖</a></li>
+                                <li class="am-text-truncate"><a href="#">微网在线 您线上平台的好助手</a></li>
+                                <li class="am-text-truncate"><a href="#">移动互联网时代 您准备好了吗</a></li>
+                                <li class="am-text-truncate"><a href="#">移动端时代已经到来？！！！</a></li>
+                                <li class="am-text-truncate"><a href="#">儿童游乐设备自控飞机游乐园必备游乐设备，你还在等什么？</a></li>
+                                <li class="am-text-truncate"><a href="#">童星游乐场游乐设备霹雳摇滚什么原因，这么火？</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <ul class="am-avg-sm-4 am-thumbnails ad-list">
+                <li><a href="#"><img src="assets/i/ad1.jpg"></a></li>
+                <li><a href="#"><img src="assets/i/ad2.jpg"></a></li>
+                <li><a href="#"><img src="assets/i/ad3.jpg"></a></li>
+                <li><a href="#"><img src="assets/i/ad4.jpg"></a></li>
             </ul>
         </div>
-
-    </div>
-</div>
-
-<div class="am-container">
-    <div class="loc">
-        <i class="am-icon-home"></i>您当前的位置：<a href="#">首页</a> » 欢迎光临
-    </div>
-    <div class="date">
-        今天是 8月21日 星期一
-    </div>
-</div>
-<div class="wrap">
-    <div class="am-container">
-        <div class="pro-photo">
-            <div class="hd am-cf">
-                <div class="cate-name">产品图片</div>
-                <a class="more" href="#">更多<i class="am-icon-angle-double-right"></i></a>
+        <div class="box">
+            <div class="home-company">
+                <ul class="am-cf">
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鸿亚商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南创汇汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>济南景瑞重型汽车配件有限公司</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南解放星辰汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南铭品汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南硕佳汽车配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>山东晨新汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>重邦汽修人连锁</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>青岛盛世瑞源文化传媒有限公司</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南广昌汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南汉世汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南宏丰重汽半挂有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南杭曼汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南卡福瑞(欧瑞卡)汽车零部件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鑫佰驰汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南淏湶商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南德光汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南欧可特汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南冠洲重汽配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南潍能矿用车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>山东菲科润滑油有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南迈达传动轴制造有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南飞岳汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南时泰贸易有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南普川商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南广联汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鼎盛商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南童航汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鑫万国汽车有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南重汽发汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南市三岭汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南泉信配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南匠心汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南奥卡汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南宝达汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南铭泽驾驶室配件专营店</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南隆成汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南振寅贸易有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>济南捷恒重型汽车配件（原顺鑫）</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南汇达汽车配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>山东德昌汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>辽宁三特石油化工有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南盾博尔重汽配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南起航汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南朋创汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南金航建汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>济南大昌驾驶室车架事故车专营</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南泰岳汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南协众商贸有限公司</a>
+                    </li>
+                </ul>
             </div>
-            <div class="bd">
-                <div class="slider autoplay">
-                    <div class="item">
-                        <a href="#">
-                            <div class="img">
-                                <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                            </div>
-                            <h5>斯太尔（后）调整臂</h5>
-                        </a>
+        </div>
+        <div class="box">
+            <ul class="am-avg-sm-4 am-thumbnails ad-list">
+                <li><a href="#"><img src="assets/i/ad1.jpg"></a></li>
+                <li><a href="#"><img src="assets/i/ad2.jpg"></a></li>
+                <li><a href="#"><img src="assets/i/ad3.jpg"></a></li>
+                <li><a href="#"><img src="assets/i/ad4.jpg"></a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="home-company">
+                <ul class="am-cf">
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鸿亚商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南创汇汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>济南景瑞重型汽车配件有限公司</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南解放星辰汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南铭品汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南硕佳汽车配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>山东晨新汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>重邦汽修人连锁</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>青岛盛世瑞源文化传媒有限公司</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南广昌汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南汉世汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南宏丰重汽半挂有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南杭曼汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南卡福瑞(欧瑞卡)汽车零部件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鑫佰驰汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南淏湶商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南德光汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南欧可特汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南冠洲重汽配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南潍能矿用车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>山东菲科润滑油有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南迈达传动轴制造有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南飞岳汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南时泰贸易有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南普川商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南广联汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鼎盛商贸有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南童航汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南鑫万国汽车有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南重汽发汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南市三岭汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南泉信配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南匠心汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南奥卡汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南宝达汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南铭泽驾驶室配件专营店</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南隆成汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南振寅贸易有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>济南捷恒重型汽车配件（原顺鑫）</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南汇达汽车配件销售中心</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>山东德昌汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>辽宁三特石油化工有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南盾博尔重汽配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南起航汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南朋创汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南金航建汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i
+                            class="am-icon-gg"></i>济南大昌驾驶室车架事故车专营</a></li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南泰岳汽车配件有限公司</a>
+                    </li>
+                    <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南协众商贸有限公司</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <img class="am-img-responsive" src="assets/i/ad5.jpg">
+        </div>
+        <div class="box am-cf">
+            <div class="box-left">
+                <div class="box-s">
+                    <div class="hd am-cf">
+                        <div class="cate-name">
+                            最新供应供求信息
+                        </div>
+                        <div class="more">
+                            <a href="#"><i class="am-icon-edit"></i> 发布求购</a>
+                            <a href="#"><i class="am-icon-edit"></i> 发布供应</a>
+                        </div>
                     </div>
-                    <div class="item">
-                        <a href="#">
-                            <div class="img">
-                                <img src="http://www.053u.com/file/upload/201707/26/16-25-46-87-848.jpg.thumb.jpg">
-                            </div>
-                            <h5>斯太尔（后）调整臂</h5>
-                        </a>
+                    <div class="bd am-cf">
+                        <div class="list">
+                            <h4>供应信息</h4>
+                            <ul>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[供应]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h4>求购信息</h4>
+                            <ul>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                                <li class="am-cf"><a class="am-text-truncate" href="#"><strong>[求购]</strong>润邦二乙烯三胺专用振动流化床受热均匀、热交换</a><span>[2017-01-15]</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="item">
-                        <a href="#">
-                            <div class="img">
-                                <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                            </div>
-                            <h5>斯太尔（后）调整臂</h5>
-                        </a>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="box-s">
+                    <div class="hd am-cf">
+                        <div class="cate-name">
+                            最新企业会员
+                        </div>
+                        <div class="more">
+                            <a href="#">更多</a>
+                        </div>
                     </div>
-                    <div class="item">
-                        <a href="#">
-                            <div class="img">
-                                <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                            </div>
-                            <h5>斯太尔（后）调整臂</h5>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <div class="img">
-                                <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                            </div>
-                            <h5>斯太尔（后）调整臂</h5>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <div class="img">
-                                <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                            </div>
-                            <h5>斯太尔（后）调整臂</h5>
-                        </a>
+                    <div class="bd am-cf">
+                        <div class="list2">
+                            <ul>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                                <li><a class="am-text-truncate" href="#" target="_blank"><i class="am-icon-gg"></i>济南臣刚汽配有限公司</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="wrap2">
-    <div class="am-container">
-        <div class="sidebar">
-            <div class="sidebar-box">
+        <div class="box">
+            <div class="mp">
                 <div class="hd am-cf">
-                    <div class="cate-name">新闻中心</div>
-                    <a class="more" href="#">更多<i class="am-icon-angle-double-right"></i></a>
+                    <div class="cate-name">推荐电子名片</div>
+                    <div class="more"><a href="#">更多</a></div>
                 </div>
                 <div class="bd">
-                    <ul>
-                        <li class="am-text-truncate"><a href="#">扬力集团新型热模锻压力机研发获突破</a></li>
-                        <li class="am-text-truncate"><a href="#">宝安智能装备抢占市场先机</a></li>
-                        <li class="am-text-truncate"><a href="#">徐工传动零部件新品螺旋减速机试制成功</a></li>
-                        <li class="am-text-truncate"><a href="#">知名企业舍弗勒（宁夏）管理体系深受好评</a></li>
-                        <li class="am-text-truncate"><a href="#">中高端产品成为瓦轴集团新的增长点</a></li>
+                    <ul class="am-avg-sm-3 am-thumbnails">
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="tit am-text-truncate"><a href="#">济南展鸿汽配有限公司</a></div>
+                                <div class="am-cf">
+                                    <div class="ewm">
+                                        <img src="http://qr.liantu.com/api.php?text=http://zhanhong.053u.com/">
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">张永燕</div>
+                                        <div class="desc">
+                                            <p>手机：13188931386</p>
+                                            <p>电话：0531-68827800</p>
+                                            <p>Q Q:</p>
+                                            <p>网址：<a href="#">http://zhanhong.053u.com/</a></p>
+                                            <p>地址：济南市天桥区泉利重配城南区15-1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="sidebar-box">
-                <div class="hd am-cf">
-                    <div class="cate-name">产品分类</div>
-                    <a class="more" href="#">更多<i class="am-icon-angle-double-right"></i></a>
-                </div>
-                <div class="bd">
-                    <ul>
-                        <li class="am-text-truncate"><a href="#">调心球轴承</a></li>
-                        <li class="am-text-truncate"><a href="#">圆柱滚子轴承</a></li>
-                        <li class="am-text-truncate"><a href="#">推力球轴承</a></li>
-                        <li class="am-text-truncate"><a href="#">调心滚子轴承</a></li>
-                        <li class="am-text-truncate"><a href="#">滚针轴承</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sidebar-box search-box">
-                <div class="hd am-cf">
-                    <div class="cate-name">站内搜索</div>
-                </div>
-                <div class="bd">
-                    <form class="am-form">
-                        <p><input type="text" class="am-form-field" placeholder="输入关键词"></p>
+        </div>
 
-                        <p>
-                            <select>
-                                <option value="option1">选项一...</option>
-                                <option value="option2">选项二.....</option>
-                                <option value="option3">选项三........</option>
-                            </select>
-                            <span class="am-form-caret"></span>
-                        </p>
-                        <p>
-                            <button type="submit" class="am-btn am-btn-block btn-search">提交</button>
-                        </p>
-                    </form>
+        <div class="box">
+            <img class="am-img-responsive" src="assets/i/ad5.jpg">
+        </div>
+        <div class="box">
+            <div class="home-news">
+                <div class="hd">
+                    <div class="cate-name">
+                        新闻资讯
+                    </div>
+                    <div class="more">
+                        <a href="#">更多</a>
+                    </div>
+                </div>
+                <div class="bd am-cf">
+                    <div class="topnews">
+                        <div class="am-cf">
+                            <div class="top1">
+                                <div data-am-widget="slider" class="am-slider am-slider-default"
+                                     data-am-slider='{"animation":"slide","slideshow":false}'>
+                                    <ul class="am-slides">
+                                        <li>
+                                            <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg">
+                                            <div class="am-slider-desc">
+                                                这是标题标题标题标题标题标题标题0
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg">
+                                            <div class="am-slider-desc">
+                                                这是标题标题标题标题标题标题标题1
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="http://s.amazeui.org/media/i/demos/bing-3.jpg">
+                                            <div class="am-slider-desc">
+                                                这是标题标题标题标题标题标题标题2
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="http://s.amazeui.org/media/i/demos/bing-4.jpg">
+                                            <div class="am-slider-desc">
+                                                这是标题标题标题标题标题标题标题3
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="top2">
+                                <div class="item-top">
+                                    <h5><a href="#">习近平为何对G20杭州峰会评价这么高？</a></h5>
+                                    <p>2016年G20杭州峰会在G20发展道路上树立了一座中国丰碑，是最成功的G20峰会之一。这次盛会，展现了中国精神，彰显了中国气派，... <a href="#">【详情】</a>
+                                    </p>
+                                </div>
+                                <div class="item-list">
+                                    <ul>
+                                        <li><a href="#" target="_blank">习近平为何对G20杭州峰会评价这么高？</a></li>
+                                        <li><a href="#" target="_blank">“一带一路”助推“杭州共识”</a></li>
+                                        <li><a href="#" target="_blank">中国四季富润商城</a></li>
+                                        <li><a href="#" target="_blank">中钢协：2016年8月会员钢铁企业营销概况</a></li>
+                                        <li><a href="#" target="_blank">七月季礼品赠送中</a></li>
+                                        <li><a href="#" target="_blank">好消息、好消息、好消息</a></li>
+                                        <li><a href="#" target="_blank">潍柴动力发动机，中国重汽发动机配件专卖</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listnews">
+                        <h3>企业新闻</h3>
+                        <ul>
+                            <li class="am-text-truncate"><a href="#" target="_blank">山东晨新 给力--泰山行</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">北奔重卡在寒冷的冬季的时候如何正确使用发动机</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">北奔发动机启动困难的原因及排除方法</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">新产品到货了</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">代理商的路如何走？</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">机油的粘度为什么要由当地的气温来决定</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">机油消耗量大的原因是什么</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">30项实用汽车保养技巧</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">法拉尔驻车加热器，德国技术，进口配件，促销优惠中</a></li>
+                            <li class="am-text-truncate"><a href="#" target="_blank">风田集成灶五月风暴季</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="sidebar-box">
-                <div class="hd am-cf">
-                    <div class="cate-name">友情链接</div>
-                    <a class="more" href="#">更多<i class="am-icon-angle-double-right"></i></a>
+        </div>
+        <div class="box">
+            <div class="home-pro">
+                <div class="hd">
+                    <div class="cate-name">
+                        产品推荐专区
+                    </div>
+                    <div class="more">
+                        <a href="#">更多</a>
+                    </div>
                 </div>
                 <div class="bd">
-                    <ul>
-                        <li class="am-text-truncate"><a href="#">源代码网络</a></li>
-                        <li class="am-text-truncate"><a href="#">阿里巴巴内贸网</a></li>
-                        <li class="am-text-truncate"><a href="#">环球资源网</a></li>
-                        <li class="am-text-truncate"><a href="#">中国轴承网</a></li>
-                        <li class="am-text-truncate"><a href="#">重汽发汽配有限公司</a></li>
+                    <ul class="am-avg-sm-6 am-thumbnails">
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img
+                                        src="https://img10.cn.gcimg.net/gcwvthird/day_20170311/87ef8c9bcdac59bf01a09b42ab90184b.jpg">
+                                </div>
+                                <div class="tit">全自动仿手工豆腐皮机器</div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="main">
-            <div class="main-box">
-                <div class="hd am-cf">
-                    <div class="cate-name">推荐产品</div>
-                    <a class="more" href="#">更多<i class="am-icon-angle-double-right"></i></a>
+        <div class="box">
+            <div class="home-photo">
+                <div class="hd">
+                    <div class="cate-name">
+                        产品推荐专区
+                    </div>
+                    <div class="more">
+                        <a href="#">更多</a>
+                    </div>
                 </div>
                 <div class="bd">
-                    <ul class="am-cf">
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <a href="#">
-                                    <div class="img">
-                                        <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
-                                    </div>
-                                    <h5>斯太尔（后）调整臂</h5>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="wrap3">
-    <div class="am-container">
-        <div class="company">
-            <div class="hd am-cf">
-                <div class="cate-name">公司介绍</div>
-                <a class="more" href="#">更多<i class="am-icon-angle-double-right"></i></a>
-            </div>
-            <div class="bd am-cf">
-                <div class="img">
-                    <img src="assets/i/company-img.jpg">
-                </div>
-                <div class="info">
-                    <h5>济南重汽发汽配有限公司</h5>
-                    <p>济南重汽发汽配有限公司位于济南市蓝翔路泉利重配城20栋193号， 济南重汽发汽配有限公司主营重型卡车轴承 潍柴动力水泵 各车型轮边滚针
-                        转向节主肖修理包等产品。济南重汽发汽配有限公司承诺：以质量求生存 全方位为您提供贴心的服务 保障客户的利益最大化 无条件退货制度。</p>
-                    <p>
-                        公司联手重卡主机配套厂家定做OEM产品。主要经营重汽底盘件，斯太尔、斯太尔王、HOWO、北方奔驰、安凯车桥、AC16、AC26、欧曼、陕汽德龙、奥龙等车桥悬挂系列零部件。公司本着以“质量求生存、以价格求发展、服务为长远”的原则，齐全的货源、低廉的价格、优质的服务让客户在本公司获得实惠。公司热忱的欢迎广大客户来我公司交流经验，洽谈合作，指导工作，我们将以优质的产品和热情的服务回报广大客户。</p>
-                    <p>济南重汽发汽配有限公司，欢迎您的来电详谈！</p>
-                    <p><a class="more" href="#">详细介绍</a></p>
+                    <div class="slider autoplay">
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
+                                </div>
+                                <h5>斯太尔（后）调整臂</h5>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="http://www.053u.com/file/upload/201707/26/16-25-46-87-848.jpg.thumb.jpg">
+                                </div>
+                                <h5>斯太尔（后）调整臂</h5>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
+                                </div>
+                                <h5>斯太尔（后）调整臂</h5>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
+                                </div>
+                                <h5>斯太尔（后）调整臂</h5>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
+                                </div>
+                                <h5>斯太尔（后）调整臂</h5>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="http://www.053u.com/file/upload/201707/26/16-09-45-34-848.jpg.thumb.jpg">
+                                </div>
+                                <h5>斯太尔（后）调整臂</h5>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -351,12 +912,28 @@
 </div>
 <div class="footer">
     <div class="am-container">
-        <p>CopyRight 2013-2016 济南重汽发汽配有限公司 All Right Reserved</p>
-        <p>地址：济南市天桥区蓝翔路泉利重配城20栋193号 电话：0531-85730779 手机：13869190500 联系人：陈秀军</p>
-        <p>业务传真：15666962279 业务QQ：869959913 网站：<a href="#">http://zhongqifa.053u.com</a></p>
+        <div class="ft-wx">
+            <img src="http://www.053u.com/skin/default/images/zs_footwx.jpg">
+            <p>官方微信</p>
+            <p>微网在线招商加盟平台</p>
+        </div>
+        <div class="ft-cr">
+            <p>
+                <a href="#">网站首页</a>
+                <a href="#">关于我们</a>
+                <a href="#">使用协议</a>
+                <a href="#">版权隐私</a>
+                <a href="#">联系我们</a>
+            </p>
+            <p>Copyright © 2015-2016 微网在线 All Rights Reserved</p>
+            <p><a href="#">鲁ICP备123456789号-1</a></p>
+        </div>
+        <div class="ft-lx">
+            <p><img src="assets/i/zs_hottel.png" class="am-img-responsive"></p>
+        </div>
     </div>
+    <div class="bz"><img src="assets/i/bz.png"></div>
 </div>
-<!--在这里编写你的代码-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.js"></script>
 <!--<![endif]-->
